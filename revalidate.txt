@@ -1,0 +1,13 @@
+revalidate(): 
+revalidates the cache that belongs to a certain route path.
+if i wanna visit the meals page and it depends on the data that changes, this revalidate will revalidates the '/meals' path.
+
+'/meals' will only revalidate the meals path not it's nested path.
+
+or we can pass another argument to revalidate the nested paths..
+ 
+        There are two ways to do so:
+        see this docs for more :
+        "https://nextjs.org/docs/app/api-reference/functions/revalidatePath"
+
+revalidate means that Nextjs throws away all the cache that is associated with the route.
