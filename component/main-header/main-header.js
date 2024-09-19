@@ -6,7 +6,7 @@ import NavLink from "./nav-link";
 import classes from "./main-header.module.css";
 export default function MainHeader() {
   return (
-    <>
+    <section>
       <MainHeaderBackground />
       <header className={classes.header}>
         <Link href="/" className={classes.logo}>
@@ -24,6 +24,6 @@ export default function MainHeader() {
           </ul>
         </nav>
       </header>
-    </>
+    </section>
   );
 }

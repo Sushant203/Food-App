@@ -45,3 +45,7 @@ export default function MealFucntion({ params }) {
     </>
   );
 }
+
+// export default function Hello({ params }) {
+//   return <div>{params}</div>;
+// }
